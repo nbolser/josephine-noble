@@ -1,15 +1,12 @@
 import React, { useContext } from 'react';
 import { Container } from 'react-bootstrap';
 import { Link } from 'react-scroll';
+import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin';
+import { FaSalesforce } from '@react-icons/all-files/fa/FaSalesforce';
 import PortfolioContext from '../../context/context';
-import GithubButtons from '../GithubButtons/GithubButtons';
-
-import { githubButtons } from '../../mock/data';
 
 const Footer = () => {
   const { footer } = useContext(PortfolioContext);
-  const { networks } = footer;
-  const { isEnabled } = githubButtons;
 
   return (
     <footer className="footer navbar-static-bottom">
@@ -20,25 +17,30 @@ const Footer = () => {
           </Link>
         </span>
         <div className="social-links">
-          {networks &&
-            networks.map((network) => {
-              const { id, name, url } = network;
-              return (
-                <a
-                  key={id}
-                  href={url || 'https://github.com/cobidev/gatsby-simplefolio'}
-                  rel="noopener noreferrer"
-                  target="_blank"
-                  aria-label={name}
-                >
-                  <i className={`fa ${name || 'refresh'} fa-inverse`} />
-                </a>
-              );
-            })}
+          <a
+            key="1"
+            href="https://trailblazer.me/id/jnoble4"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label="salesforce"
+          >
+            <div style={{ color: 'white' }}>
+              <FaSalesforce size={60} />
+            </div>
+          </a>
+          <a
+            key="2"
+            href="https://www.linkedin.com/in/jojonoble/"
+            rel="noopener noreferrer"
+            target="_blank"
+            aria-label="linkedin"
+          >
+            <div style={{ color: 'white' }}>
+              <FaLinkedin size={60} />
+            </div>
+          </a>
         </div>
         <hr />
-
-        {isEnabled && <GithubButtons />}
       </Container>
     </footer>
   );

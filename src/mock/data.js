@@ -68,12 +68,12 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'fab-salesforce',
+      name: 'salesforce',
       url: 'https://trailblazer.me/id/jnoble4',
     },
     {
       id: nanoid(),
-      name: 'fa-linkedin',
+      name: 'linkedin',
       url: 'https://www.linkedin.com/in/jojonoble/',
     },
   ],
