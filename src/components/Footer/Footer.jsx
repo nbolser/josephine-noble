@@ -32,7 +32,7 @@ const Footer = () => (
           target="_blank"
           aria-label="linkedin"
         >
-          <div style={{ color: 'white' }}>
+          <div style={{ color: '#ecf0f1' }}>
             <FaLinkedin size={60} />
           </div>
         </a>
