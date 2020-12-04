@@ -27,7 +27,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.JPG',
+    img: 'project.jpg',
     title: 'Changing the student culture and external constituent experience through digital communications',
     info: '',
     info2: '',
