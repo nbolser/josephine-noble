@@ -31,5 +31,11 @@ module.exports = {
         icon: 'src/images/salesforce.png',
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ['G-WTFZ8GEE8L'],
+      },
+    },
   ],
 };
