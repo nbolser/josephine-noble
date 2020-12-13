@@ -21,7 +21,7 @@ export const aboutData = {
     'I am an experienced problem solver. At my current job you can find me leading new project initiatives and campaigns for the different schools, tracking down project requirements from Assistant Deans, and also providing administrative and technical support for a wide variety of users at CU.',
   paragraphThree:
     'In my free time, and with my dogs Moose and Bart at my side, I enjoy many outdoor activities the Rocky Mountains have to offer. My personal passions lie in all things exploration – whether it’s breaking ground on a newfound backpacking trip, floating the Colorado River, or tinkering with computer programming.',
-  resume: 'https://drive.google.com/file/d/10OEwfnFKStLfHEHLwl0SLmzmpeXwtUl1/view?usp=sharing',
+  resume: 'https://portfolio-file-bucket-2020.s3.amazonaws.com/Josephone+Noble+Resume.pdf',
 };
 
 export const projectsData = [
